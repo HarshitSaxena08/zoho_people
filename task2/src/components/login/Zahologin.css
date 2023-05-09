@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.zohologo {
+    display: block;
+    margin-bottom: 20px;
+    height: 30px;
+    width: auto;
+}
+.forgot{
+    color: aqua;
+    text-align: center;
+}
+.cointainer{
+    display: flexbox;
+    display: grid;
+    width: 80%;
+    gap: 10px;
+   
+}
+.login{
+    
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows:1fr 1fr; */
+    background-color: rgb(0, 255, 13);
+    align-items: center;
+    justify-content: center;
+    
+}
+.rightbox{
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-rows: 1fr 1fr;
+    background-color: aqua;
+}
+.lower-icon{
+    
+    align-items: center;
+}
+.icon{
+    width: 40px;
+    padding: 10px;
+}
+.form{
+    width: 100%;
+    margin: 32px 0px;
+    
+}
+.form input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    
+}
+.form-nextbtn col-md-4 {
+    width: 100%;
+    padding: 12px 0px;
+    background-color: red;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 500;
+
+}
+#signuplink {
+    width: 100%;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+}
+
+
+

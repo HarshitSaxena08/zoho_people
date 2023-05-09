@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: 0;
+    z-index: 99;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+
+}
+.harsh{
+    padding-left: 10px;
+    color: red;
+}
+
+
+.logo{
+    height: 60px;
+    width: 60px;
+    float: left;
+}
+.item{
+    
+    display: flex;
+    float: right;
+}
+.userimg{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    ;
+}
+.testimonial{
+    
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+        url(https://www.zohowebstatic.com/sites/zweb/images/zp-signup-bg.jpg);
+    
+}
+.yo{
+     margin-top: 200px;
+}
+p{
+    color:#fff;
+    
+}
+.customer{
+    color: aqua;
+}
+.people-img{
+    height: 34px;
+    width: 34px;
+    padding-right: 10px;
+}
+.people-head{
+    display: flex;
+
+}
+
+/* yha se rasid ka code hai */
+/* ye css Registrati\on page ki hai */
+.register{
+    background-color: #000;
+
+   
+}
+.r-left{
+    background-color: #000;
+    width: 35%;
+    height: 100vh;
+    position: fixed;
+    
+    border: 0px solid red;
+    /* position: fixed; */
+
+}
+
+.r-left-top{
+    width: 100%;
+
+}
+
+.r-left-top img{
+    padding: 10px 10px;
+}
+
+.r-left-bottom{
+   width: 77%;
+   margin: auto;
+   height: 250px;
+   border: 0px solid red;
+   margin-top: 100px;
+   text-align: center;
+   padding-left: 10px;
+  
+}
+
+.r-left-bottom-img{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-left-bottom-img img{
+    width: 20%;
+    border-radius: 50%;
+    
+}
+
+.r-left-bottom p{
+    
+    font-size: 18px;
+    /* font-weight: 500; */
+    text-align: center;
+    color: #f2f2f2;
+    line-height: 28px;
+    /* margin: 0 0 15px; */
+    font-weight: 500;
+    opacity: 0.9;
+
+}
+
+.r-left-bottom span{
+    color: #00add5;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+
+.r-right-header{
+    width: 100%;
+    height: 50px;
+    border: 0px solid red;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 1px 1px 0px whitesmoke;
+    background-color: whitesmoke;
+    /* z-index: 999; */
+    /* position: fixed; */
+
+}
+.r-right-header-left {
+    width: 20%;
+    text-align: left;
+    display: none;
+}
+
+.r-right-header p{
+    width: 80%;
+    font-size: 15px;
+    color: black;
+    padding-top: 12px;
+    text-align: right;
+}
+
+.r-right-header p a{
+   text-decoration: none;
+   color: red;
+   font-size: 12.2px;
+   font-weight: 500;
+}
+
+.r-right{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    background-color: white !important;
+
+    /* background-color: blue; */
+}
+
+.r-right-middle{
+   padding-top: 50px;
+    width: 72%;
+    /* margin: auto; */
+    height: auto;
+    border: 0px solid red;
+}
+
+.r-form{
+    width: 100%;
+    margin: 32px 0px;
+    
+}
+
+.r-form input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    
+}
+
+.r-form-number{
+    width: 15%;
+    padding: 12px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    float: left;
+}
+
+
+.check{
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
+.check a{
+    color: #000 !important;
+    font-size: 13px !important;
+    padding: 0px 3px;
+    
+}
+
+.r-form-btn button{
+    width: 100%;
+    padding: 12px 0px;
+    background-color: red;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 500;
+
+}
+
+/* yha pe khatam rasid ka code */
+.juntion{
+    display: inline-block;
+    display: flex;
+}
+.signup-form{
+    float: right;
+    text-align: left;
+    margin-right: 15rem;
+    margin-top: 200px;
+  
+}
+.testimonial{
+
+    float: left;
+    width: 35%;
+    position: fixed;
+    margin-left: -55px;
+    
+}
+@media only screen and (max-width: 991px)
+{
+.signup-form {
+    max-width: 500px;
+    text-align: left;
+    padding: 100px 20px 30px;
+}
+}
+@media only screen and (min-width : 0px) and (max-width : 993px)
+{
+.testimonial{
+    visibility: hidden;
+}
+}

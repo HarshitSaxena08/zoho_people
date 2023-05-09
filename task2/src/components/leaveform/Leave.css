@@ -1,0 +1,14 @@
+.container{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 0px;
+    font-size: medium;
+}
+h2{
+    color: brown;
+    font-size: large;
+    font-style: bold;
+}
+.container{
+    box-sizing: border-box;
+}

@@ -1,0 +1,54 @@
+* {
+    margin-top: 0;
+    padding: 0;
+}
+@media only screen and (max-width :918px) and (max-width: 1500px)
+{
+.header {
+    display: none;
+    visibility: hidden;
+}
+}
+.header {
+    background: rgba(238, 228, 228, 0.75);
+    display: flex;    
+    
+    
+}
+.logo{
+    width: 70px;
+    height: 30px;
+}
+
+.Menu li{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+    font-size: medium;
+}
+.left-head{
+    margin-left: auto;
+    float: right; 
+    justify-content: space-between; 
+    /* padding-left: 10px;
+    padding-right: 10px;*/
+     display: flex;
+    justify-items: space-between;
+     
+    
+    
+}
+.left-head-logo{
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+}
+span{
+    font-size: medium;
+     margin: 10px;
+}
+.sign-in{
+    color:brown;
+}

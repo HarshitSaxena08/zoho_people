@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.banner1_content, .banner1_href {
+    display: block;
+    line-height: 20px;
+    text-align: center;
+    align-items: center;
+}
+.banner1_content {
+    font-size: 140px;
+    font-weight: 400;
+    margin-top: 10px;
+}

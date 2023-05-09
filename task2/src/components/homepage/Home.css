@@ -1,0 +1,79 @@
+.logo{
+    display: inline-block;
+    height: 30px;
+}
+.logo img{
+    height: 40px;
+    margin-left: 6rem;
+    display: inline-block;
+}
+.logo h4{
+    display: inline-block;
+    margin-top: 1rem;
+}
+.head-para{
+    margin:  auto;
+}
+.head-para h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+.head-para p{
+    color: #222;
+    margin: auto;
+    text-align: center;
+    
+}
+.btn{
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+#btn1{
+    width: 20;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: rgb(238,78,78);
+    color: #fff;
+    padding: 13px;
+    border: 1px solid black;
+}
+#btn2{
+    width: 20;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: rgb(251, 251, 255);
+    color: black;
+    padding: 13px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.peoples{
+    margin-top: 15vh;
+    height: 10vh;
+    margin-left: 30%;
+}
+.peoples li img{
+    
+    margin: 0;
+}
+.peoples li{
+    display: flex;
+    float: left;
+    
+}
+.people1{
+    height: 200px;
+}
+.people2{
+    height: 200px;
+    padding-top: 45px;
+}
+.people3{
+    padding-top: 45px;
+    height : 200px;
+}
+.people4{
+    height: 200px;
+}
